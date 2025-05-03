@@ -37,6 +37,7 @@ AraBERT	94.26%
 
 ## Try It Out
 Best Model Available (Custom Transformer):
+
 🔗 https://huggingface.co/hatimalhomid/arabic-diacritization-transformer/blob/main/README.md
 
 ## Tools & Environment
