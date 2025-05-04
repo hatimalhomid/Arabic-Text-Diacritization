@@ -11,7 +11,7 @@ This project addresses the restoration of Arabic diacritics (حركات) to undi
 
 
 ## Models Used
-BiLSTM – Performs well even with limited data.
+BiLSTM – Performs well even with limited data. (30% of training data only)
 
 Custom Transformer – Best performance with 97.33% validation accuracy.
 
