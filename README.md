@@ -39,7 +39,7 @@ BiLSTM	97.24%
 Transformer	97.33%
 AraBERT	94.26%
 
- ***Inference tests show accurate predictions across all models.***
+ ***Inference tests (random not hardest) show accurate predictions across all models except fine-tuned Arabert made one mistake.***
 
 ## Try It Out
 Best Model Available (Custom Transformer):
@@ -53,11 +53,14 @@ Best Model Available (Custom Transformer):
 
 - Hugging Face Transformers
 
-## Future Recommendations
-Train LSTM on the full dataset
+##  Recommendations
+- Train LSTM on the Full Dataset: Utilize the entire dataset when training the LSTM model to maximize its generalization capability and performance.
 
-Use beam search for better decoding
+- Incorporate Beam Search Decoding: Replace or augment greedy decoding with beam search to explore multiple candidate sequences and enhance prediction quality.
 
-Add morphological constraints for correctness
+- Introduce Morphological Constraints: Integrate morphological rules and constraints into the decoding process to ensure syntactic and grammatical correctness in the output.
 
-Fine-tune larger models (e.g., XLM-R, ALLaM-7B)
+- Extend Training Duration: Allocate longer training time, particularly for models like AraBERT and Transformer, to allow for better convergence and improved accuracy.
+
+- Fine-Tune Large Pre-Trained Models: Consider fine-tuning models such as mBERT, XLM-R, and ALLaM-7B, which have been pre-trained on extensive Arabic corpora including Harakat (diacritics). Their linguistic coverage can significantly boost diacritization accuracy
+
