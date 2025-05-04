@@ -4,6 +4,12 @@
 ## Overview
 This project addresses the restoration of Arabic diacritics (حركات) to undiacritized text — a critical task for improving pronunciation, clarity, and text-to-speech systems. It models diacritization as a character-level sequence prediction problem, using deep learning approaches.
 
+# Project Structure
+- Arabic_Text_Diacritization_Challenge_final.ipynb: Main Jupyter notebook containing the implementation
+- clean_notebook_forgithub.py: Utility script for cleaning notebook metadata
+- requirements.txt: List of Python dependencies
+
+
 ## Models Used
 BiLSTM – Performs well even with limited data.
 
